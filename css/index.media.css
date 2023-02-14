@@ -1,0 +1,894 @@
+@media (max-width:1400px){
+    .header__items__menu{
+        padding-left: 90px;
+        padding-top: 180px;
+        width: 43.6%;
+    }
+}
+@media (max-width:1280px){
+    .logo__animation {
+        width: 552px;
+    }
+    .header__items__menu {
+        padding-top: 159px;
+        padding-left: 126px;
+    }
+    .showlogo {
+        transform: translate(11%, 51%);
+    }
+}
+@media (max-width:1180px){
+    .header__items__menu {
+        width: 43.6%;
+        padding-left: 50px;
+    }
+    .showlogo {
+        transform: translate(11%, 58%);
+    }
+    .logo__animation {
+        width: 480px;
+    }
+    .container {
+        max-width: 1160px;
+        margin: 0 25px;
+    }
+    .benefits__container{
+        width: auto;
+        margin: 0 25px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    .room__section {
+        margin-top: 16%;
+    }
+    .videoabout__description__title{
+        margin-left: 20px;
+        font-size: 28px;
+    }
+    .videoabout__description{
+        height: 140px;
+        gap: 15px;
+    }
+    .rewiews__section__item{
+        width: 100%;
+    }
+    .rewiews__section{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        position: relative;
+    }
+    .rewiews__section__title{
+        width: 100%;
+        text-align: center;
+    }
+    .rewiews__section__item__block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rewiews__section__text{
+        margin: 0;
+    }
+    .rewiew-swiper{
+        margin: 0 auto;
+    }
+    .rewiews__buttons{
+        width: 319px;
+        margin-top: 30px;
+        position: absolute;
+        bottom: -50px;
+    }
+}
+@media (max-width:1080px){
+    .popup{
+    width: 650px;
+    padding: 25px;
+    transition: 0.5s all;
+    }
+    .popup h2{
+        font-size: 44px;
+    }
+    .popup__text{
+        margin-bottom: 60px;
+        font-size: 17px;
+    }
+    .popup__text2{
+        font-size: 17px;
+    }
+    
+}
+
+@media (max-width:1024px){
+    .logo__animation {
+        display: none;
+    }
+    .header__items__menu {
+        width: 58.6%;
+        z-index: -1;
+    }
+    .eclipse {
+        display: none;
+    }
+}
+@media (max-width:992px){
+    .swiper{
+        position: inherit;
+        height: 750px;
+        z-index: 1;
+        width: 100%;
+    }
+    .introduction__section{
+        flex-direction: column;
+    }
+    .introduction__section{
+        padding-top: 60px;
+    }
+    .swiper__buttons{
+        display: none;
+    }
+    .introduction__section__block1__row{
+        margin-bottom: 60px;
+    }
+    .introduction{
+        margin-bottom: 0;
+    }
+    .videoabout__description__item1{
+        display: none;
+    }
+    .videoabout__description__item2{
+        display: none;
+    }
+    .videoabout__description{
+        display: block;
+        width: 73%;
+        height: 80px;
+    }
+    .videoabout__description__title{
+        margin-top: 25px;
+        width: 73%;
+    }
+    .videoabout__description__item2__adaptive{
+        display: inline-block;
+        margin-top: 50px;
+        text-align: center;
+        margin-left: 14%;
+        width: 92px;
+    }
+    .videoabout__description__item1__adaptive{
+        display: inline-block;
+        margin-top: 40px;
+    }
+    .description__item1__block__adaptive{
+        margin-top: 12px;
+    }
+    .videoabout__description__item1__adaptive{
+        margin-left: 50px;
+    }
+    .videoabout{
+        padding-bottom: 60px;
+    }
+    .roomlook__block__info__title{
+        display: none;
+    }
+    .room__section{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .room{
+        height: auto;
+        padding-bottom: 200px;
+    }
+    .per-veiw{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .roomlook__block__info{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .roomlook__block__info__title__adaptive{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    .roomlook__block__buttons{
+        justify-content: center;
+    }
+    .swiper-buttons{
+        bottom: 110px;
+        left: inherit;
+        bottom: 150px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+    .contacts__section__item{
+        display: none;
+    }
+    .contacts__section__item2{
+        display: none;
+    }
+    .contacts__section__item__adaptive{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts__section__item__button{
+        margin-bottom: 50px;
+    }
+    .contacts__section__item__adress{
+        margin-bottom: 40px;
+    }
+    .contacts__section__item2__location {
+        width: 162px;
+        margin-bottom: 30px;
+    }
+    .contacts__section__item__number{
+        width: 307px;
+        margin-bottom: 30px;
+    }
+    .footer__footer__logo{
+        width: 201px;
+    }
+    .map__container{
+        margin-bottom: 60px;
+    }
+    .room__eclipse1{
+        height: 9.4%;
+    }
+    .room__eclipse{
+        height: 9.4%;
+    }
+    
+}
+@media (max-width:830px){
+    .popup{
+        width: 93%;
+    }
+    .close-popup{
+        top: 24px;
+        right: 24px;
+    }
+    .popup h2{
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .popup button{
+        width: 150px;
+        height: 44px;
+    }
+    .submit__eclipse{
+        width: 16px;
+        height: 16px;
+        top: 34%;
+    }
+    .submit__eclipse2{
+        width: 16px;
+        height: 16px;
+        top: 34%;
+    }
+}
+
+@media (max-width:769px){
+
+    .header__items__menu li a {
+        font-size: 26px;
+    }
+    .header__items__menu {
+        gap: 20px;
+        padding-top: 120px;
+    }
+    .map{
+        height: 321px;
+    }
+    .swiper{
+        height: 550px;
+    }
+    .header__items__number{
+        display: none;
+    }
+    .header__items{
+        width: 145px;
+    }
+    .header__logo{
+        width: 175px;
+    }
+    .introductiona__text{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .introduction__title{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .introduction__button{
+        width: 150px;
+        height: 44px;
+    }
+    .introduction__button__decor{
+        width: 16px;
+        height: 16px;
+        left: -7%;
+    }
+    .introduction__button__decor2{
+        width: 16px;
+        height: 16px;
+        right: -7%;
+    }
+    .introduction__location p {
+        font-size: 14px;
+    }
+    .rewiew-swiper{
+        width: 100%;
+    }
+    .footer__footer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer__footer__logo{
+        margin-bottom: 40px;
+    }
+    .footer__footer__info{
+        margin-bottom: 32px;
+    }
+    .benefits__item p{
+        font-size: 14px;
+    }
+    .benefits__item img{
+        width: 21px;
+        height: 21px;
+    }
+    .videoabout__description__title {
+        font-size: 16px;
+        width: 141px;
+    }
+    
+}
+@media (max-width:600px){
+    .mySwiper2{
+        width: 100%;
+        height: 296px;
+    }
+    .per-veiw{
+        width: 100%;
+    }
+    .mySwiper{
+        height: 73px;
+    }
+    .roomlook__block__info__title__adaptive{
+        width: 100%;
+    }
+    .roomlook__block__info{
+        width: 100%;
+    }
+    .roomlook__block__info__item p{
+        font-size: 14px;
+    }
+    .contacts__section__title{
+        font-size: 32px;
+    }
+    .benefits__container{
+        gap: 20px;
+    }
+}
+@media (max-width:500px){
+    .close-popup{
+        width: 24px;
+        height: 24px;
+    }
+    .popup h2{
+        font-size: 28px;
+    }
+    .popup__text {
+        font-size: 15px;
+    }
+    .popup__text2{
+        font-size: 15px;
+        width: 83.888%;
+    }
+
+}
+@media (max-width:481px){
+    .header__items__burger [class*='bar-'] {
+        height: 2px;
+        width: 20px;
+        margin-bottom: 5px;
+    }
+    .opened .bar-top{
+        width: 28px;
+    }
+    .opened .bar-bot{
+        width: 28px;
+    }
+    .header__items__menu {
+        width: 100%;
+        z-index: -1;
+    }
+    .swiper-buttons{
+        width: 321px;
+    }
+    .swiper{
+        height: 420px;
+    }
+    .videoabout__description{
+        height: 73px;
+    }
+    .videoabout__description__title{
+        margin-top: 15px;
+    }
+    .header__items__burger{
+        width: 20px;
+        height: 16px;
+    }
+    .header__items__burger span{
+        width: 20px;
+        height: 1.6px;
+    }
+    .benefits__item {
+        display: flex;
+        align-items: center;
+        flex: 1 0 36%;
+    }
+    .benefits__container {
+        gap: 40px;
+        height: auto;
+        width: 86.6666%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .room__eclipse{
+        height: 5.4%;
+        bottom: -4%;
+    }
+    .room__eclipse1{
+        height: 5.4%;
+        top: -4%;
+    }
+    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 var(--swiper-pagination-bullet-horizontal-gap,8px);
+    }
+    .rewiews__buttons{
+        display: none;
+    }
+    .rewiews__buttons__adaptive{
+        display: flex;
+        justify-content: space-between;
+        width: 321px;
+        margin: 0 auto;
+    }
+    .rewiews__section__title{
+        font-size: 32px;
+    }
+    .rewiews__section__stars{
+        width: 186px;
+    }
+    .rewiew-swiper{
+        display: none;
+    }
+    .rewiew-swiper__adaptive{
+        display: block;
+    }
+    .swiper-pagination5{
+        text-align: center;
+    }
+    .swiper-pagination5__adapt{
+        order: 2;
+        text-align: center;
+    }
+    .swiper-button-prev5__adapt{
+        order: 1;
+    }
+    .swiper-button-next5__adapt{
+        order: 3;
+    }
+    
+}
+@media (max-width:375px) {
+    .per-veiw{
+        margin-bottom: 0;
+    }
+    .header__items {
+        width: 100px;
+        gap: 50px;
+    }
+    .container {
+        margin: 0 25px;
+    }
+    .header {
+        height: 80px;
+    }
+    .header__header{
+        height: 80px;
+    }
+    .header__items__number {
+        display: none;
+    }
+    .header__logo {
+        width: 135px;
+    }
+    .header__items__ukr{
+        width: 36px;
+        height: 15px;
+    }
+    .header__items__burger {
+        width: 20px;
+        height: 16px;
+    }
+    .header__items__burger span {
+        width: 20px;
+        height: 1.6px;
+    }
+    .swiper__buttons {
+        display: none;
+    }
+    .introduction__section{
+        flex-direction: column;
+        padding-top: 60px;
+    }
+    .swiper {
+        position: inherit;
+    }
+    .introductiona__text {
+        font-size: 14px;
+    }
+    .introduction__title {
+        font-size: 36px;
+        width: 100%;
+        line-height: 45px;
+        margin-bottom: 40px;
+    }
+    .introduction__button {
+        width: 150px;
+        height: 44px;
+        position: relative;
+        margin: 0;
+    }
+    .introduction__section__block1__row{
+        justify-content: flex-start;
+        gap: 30px;
+    }
+    .introduction__location p {
+        font-size: 14px;
+    }
+    .introduction__button a {
+        font-size: 14px;
+    }
+    .introduction__location img {
+        margin-right: 15px;
+    }
+    .introduction__location p {
+        width: 113px;
+    }
+    .introduction__location {
+        justify-content: flex-start;
+    }
+    .introduction__button__decor {
+        width: 16px;
+        height: 16px;
+        top: 33%;
+        left: -7.7%;
+    }
+    .introduction__button__decor2 {
+        width: 16px;
+        height: 16px;
+        top: 33%;
+        right: -7.7%;
+    }
+    .swiper{
+        width: 107%;
+        height: 424px;
+    }
+    .introduction{
+        margin-bottom: 0;
+    }
+    .benefits__item p {
+        font-size: 14px;
+    }
+    .benefits__item img {
+        width: 21px;
+        height: 21px;
+    }
+    .benefits__item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 23px;
+    }
+    .benefits__container {
+       gap: 40px;
+       height: auto;
+       width: 86.6666%;
+       flex-wrap: wrap;
+       justify-content: space-around;
+    }
+    .benefits__item {
+        flex: 1 0 36%;
+    }
+    .benefits__item :nth-child(2){
+        margin-right: 0;
+    }
+    .benefits__container{
+        margin: 0 25px;
+    }
+    .videoabout__description__title {
+        font-size: 16px;
+        width: 142px;
+        margin: 17px 0px 0px 20px
+    }
+    .videoabout__description {
+        height: 73px;
+        display: block;
+    }
+    .videoabout__description__item1{
+        display: none;
+    }
+    .videoabout__description__item2{
+        display: none;
+    }
+    .videoabout__container{
+        margin: 0 25px;
+        width: 86.66666%;
+    }
+    .videoabout__description {
+        width: 73.63%;
+    }
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.4);
+        transition: 1s;
+    }
+    .sticky + main {
+        padding-top: 80px;
+    }
+    .videoabout__description__item2__adaptive{
+        display: inline-block;
+    }
+    .videoabout__description__item2__adaptive {
+        width: 92px;
+        height: 36px;
+    }
+    .arrow__adaptive{
+        width: 16px;
+        height: 43px;
+    }
+    .videoabout__container{
+        margin-bottom: 6%;
+    }
+    .videoabout__description__item1__adaptive{
+        display: inline-block;
+        margin-left: 8%;
+    }
+    .videoabout__description__item1__adaptive__text{
+        margin-bottom: 12px;
+        font-size: 14px;
+    }
+    .room__eclipse1 {
+        height: 4.4%;
+        top: -3%;
+    }
+    .roomlook__block__info__title {
+        display: none;
+    }
+    .room__section{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .per-veiw {
+        width: 100%;
+    }
+    .mySwiper2{
+        width: 100%;
+        height: 296px;
+        margin-bottom: 16px;
+    }
+    .mySwiper{
+        height: 63px;
+    }
+    .roomlook__block__info__title__adaptive{
+        display: inline-block;
+        margin-bottom: 9%;
+        padding-top: 15%;
+        font-size: 28px;
+    }
+    .roomlook__block__info{
+        margin-top: 15.2%;
+    }
+    .roomlook__block__info__item p{
+        font-size: 15px;
+    }
+    .room__eclipse {
+        height: 3.4%;
+        bottom: -2%;
+    }
+    .swiper-button-prev1 img, .swiper-button-next1 img {
+        width: 92%;
+        object-fit: cover;
+    }
+    .swiper-buttons{
+        width: 356px;
+    }
+    .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 var(--swiper-pagination-bullet-horizontal-gap,10px);
+    }
+    .room{
+        height: 100%;
+        padding-bottom: 150px;
+    }
+    .roomlook__block__price{
+        margin-bottom: 50px;
+    }
+    .roomlook__block__buttons{
+        gap: 20px;
+    }
+    .roomlook__block__button2{
+        width: 152px;
+        height: 44px;
+    }
+    .roomlook__block__button1{
+        width: 152px;
+        height: 44px;
+    }
+    .roomlook__block__button2__square1 ,.roomlook__block__button2__square2{
+        width: 16px;
+        height: 16px;
+    }
+    .swiper-buttons {
+        bottom: 9.5%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .rewiews__section{
+        display: flex;
+        flex-direction: column;
+    }
+    .rewiews__section__item{
+        width: 100%;
+    }
+    .rewiews__section__title{
+       font-size: 32px; 
+       width: 100%;
+       text-align: center;
+    }
+    .rewiews{
+        padding-top: 80px;
+    }
+    .rewiews__section__stars{
+        display: block;
+        width: 186px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+
+    }
+    .rewiews__buttons{
+        display: none;
+    }
+    .rewiew-swiper{
+        display: none;
+    }
+    .rewiews__buttons__adaptive{
+        display: flex;
+        justify-content: space-between;
+        width: 310px;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .rewiew-swiper__adaptive {
+        display: block;
+        width: 325px;
+        height: 470px;
+        margin: 0 auto;
+    }
+    .swiper-pagination5__adapt {
+        order: 2;
+        width: 141px;
+    }
+    .swiper-button-prev5__adapt{
+        order: 1;
+    }
+    .swiper-button-next5__adapt{
+        order: 3;
+    }
+    .swiper-pagination5__adapt{
+        width: 141px;
+        text-align: center;
+    }
+    .contacts__section__title{
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .map {
+        height: 321px;
+    }
+    .contacts__section__item{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contacts__section__item__button{
+        order: 1;
+        width: 170px;
+        height: 44px;
+        margin-bottom: 50px;
+    }
+    .contacts__section__item__adress{
+        order: 2;
+        margin: 0;
+        margin-bottom: 40px;
+        width: 100%;
+
+    }
+    .contacts__section__item__adress p:nth-child(1) {
+        font-size: 16px;
+    }
+    .contacts__section__item__adress p:nth-child(2) {
+        font-size: 16px;
+    }
+    .contacts__section__item2{
+        display: none;
+    }
+    .contacts__section__item{
+        display: none;
+    }
+    .contacts__section__item__adaptive{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts__section__item2__location{
+        order: 3;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contacts__section__item__number{
+        order: 4;
+        margin-bottom: 30px;
+    }
+    .contacts__section__item__number p {
+        font-size: 16px;
+        width: 54.7%;
+    }
+    .span__contacts{
+        font-size: 16px;
+    }
+    .contacts__section__item__graphic{
+        order: 5;
+    }
+    .contacts__section__item__button__square {
+        left: -8%;
+    }
+    .contacts__section__item__button__square2 {
+        right: -8%;
+    }
+    .contacts__section__item__graphic p:nth-child(1) {
+        font-size: 16px;
+    }
+    .contacts__section__item__graphic p:nth-child(2){
+        font-size: 16px;
+    }
+    .contacts{
+        padding-bottom: 50px;
+    }
+    .footer__footer{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .footer__footer__logo {
+        width: 201px;
+        height: 58px;
+        margin-bottom: 40px;
+    }
+    .footer__footer__info{
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+    .map__container{
+       margin-bottom: 40px; 
+    }
+}

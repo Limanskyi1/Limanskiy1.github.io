@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Book.eot');
+    src: local('./fonts/Futura PT Book'), local('../fonts/FuturaPT-Book'),
+        url('../fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaPT-Book.woff') format('woff'),
+        url('../fonts/FuturaPT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Medium.eot');
+    src: local('./fonts/FuturaPT-Medium.eot'), local('../fonts/FuturaPT-Medium.eot'),
+        url('../fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaPT-Medium.woff') format('woff'),
+        url('../fonts/FuturaPT-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.roomlook__title {
+    width: 47%;
+    margin-bottom: 40px;
+}
+.roomlook__title__apart{
+    width: 59%;
+}
+.roomlook__title__apart2{
+    width: 59%;
+}
+.roomlook__block__info__item3{
+    display: flex;
+    gap: 34px;
+}
+.roomlook__title__apart3{
+    width: 59%;
+}
+.swiper-pagination-bullet {
+    border: 1px solid #00303E;
+    background: #FAFBFB;
+}
+.swiper-pagination-bullet-active {
+    background: #00303E;
+}
+.roomlook__title__apart4{
+    width: 67%;
+}
+.bold{
+    font-weight: 450;
+}
+.roomlook__block__info__item p.bold{
+    font-weight: 450;
+}
+.roomlook__block__info__item2__fix{
+    gap: 44px;
+}
+.roomlook__block__info__item {
+    margin-bottom: 34px;
+}
+.btn-up{
+    margin-top: 22%;
+}
+.footer__hide{
+    opacity: 0;
+    transition: 1s;
+}
+/* ==========footer=============== */
+.contacts__section__item__adress{
+    margin-right: 100px;
+    width: 61%;
+    padding-top: 3%;
+}
+.contacts__section__item__adress p:nth-child(1){
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.contacts__section__item__adress p:nth-child(2){
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #00303E;
+}
+.contacts__section__item__number {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contacts__section__item__number__icon {
+    width: 16px;
+    height: 16px;
+}
+.contacts__section__item__number p {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144.2%;
+    color: #000000;
+    display: block;
+    width: 55.7%;
+}
+.span__contacts{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 144.2%;
+    color: #000000;
+}
+.footer__footer {
+    padding: 50px 0px;
+    display: flex;
+}
+.footer__footer__logo img{
+    width: 100%;
+}
+.footer__footer__logo {
+    width: 74.3%;
+    margin-bottom: 66px;
+}
+.footer__footer__info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+.footer__footer__info__block{
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    width: 109%;
+}
+.footer__footer__info a{
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    border-bottom: 1px solid #00303E;
+    color: #00303E;
+    text-decoration: none;
+    width: 154px;
+}
+.footer__footer__info__block p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #D0D0D0;
+}
+.footer__footer__author {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+.footer__footer__item{
+    margin-right: 17.5%;
+}
+.contacts__section__item2__location{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer__footer__item2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 1%;
+}
+.contacts__section__item2__location span{
+    font-weight: 450;
+}
+.contacts__section__item2__location__item{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.footer__footer__author{
+    margin-top: 32px;
+}
+.contacts__section__item2__location__item__srick:nth-child(1){
+    font-weight: 450;
+}
+.main-block__apartment{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    background-position: center;
+    padding-bottom: 160px;
+    background: radial-gradient(83.46% 149.98% at 50% 50%, rgba(255, 255, 255, 0.874) 0%, rgba(255, 255, 255, 0.95) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, url(../img/back-apartemts.jpg);
+}
+.swiper__buttons{
+    bottom: -12%;
+}
+.swiper__buttons__adaptive{
+    bottom: -2%;
+}
+.fix{
+    font-size: 20px;
+}
+.roomlook__link__adaptive{
+    width: 147px;
+    height: 37.5px;
+    background: #FFFFFF;
+    border-radius: 67.5px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 48, 62, 0.1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+.roomlook__link__adaptive a{
+    text-decoration: none;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #00303E;
+}
+.roomlook__link__adaptive{
+    display: none;
+}
+.main-block__button1{
+    background: #00303E;
+}
+.main-block__button1__decor{
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+.main-block__button2{
+    background-color: #D5DDDF;
+}
+.main-block__button1__decor2{
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+.main-block__button2:hover{
+    background-color: #D5DDDF;
+}

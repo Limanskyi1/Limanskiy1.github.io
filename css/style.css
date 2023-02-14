@@ -1,0 +1,1462 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Book.eot');
+    src: local('../fonts/Futura PT Book'), local('../fonts/FuturaPT-Book'),
+        url('../fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaPT-Book.woff') format('woff'),
+        url('../fonts/FuturaPT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPT-Medium.eot');
+    src: local('./fonts/FuturaPT-Medium.eot'), local('../fonts/FuturaPT-Medium.eot'),
+        url('../fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FuturaPT-Medium.woff') format('woff'),
+        url('../fonts/FuturaPT-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Futura PT';
+    font-weight: 400;
+    font-style: normal;
+}
+.body-hide{
+    overflow: hidden;
+}
+.body-destroy{
+    display: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* main{
+    transition: 2s;
+} */
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.button {
+    background: #00303E;
+    border: none;
+    overflow: hidden;
+    width: 180px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-hide{
+    opacity: 0;
+    transition: 1s;
+}
+.footer__hide{
+    opacity: 0;
+    transition: 1s;
+}
+::placeholder{
+    font-family: 'Avenir Next Cyr', sans-serif;
+}
+
+/* =========HEADER=================== */
+.header {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(2px);
+    position: relative;
+    z-index: 2;
+    height: 118px;
+    z-index: 3;
+    transition: 1s;
+}
+.header__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 118px;
+}
+
+.header__logo {
+    max-width: 192px;
+    max-height: 56px;
+    position: relative;
+    z-index: 1;
+}
+.header__logo img{
+    width: 100%;
+    height: 100%;
+}
+.header__items {
+    width: 352px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.header__items__ukr {
+    border: none;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 138.2%;
+    text-transform: uppercase;
+    color: #0D0D0D;
+}
+select{
+    background: rgba(0, 0, 0, 0); 
+}
+.header__items__ukr option{
+    border: none;
+}
+.header__items__number {
+    display: flex;
+    align-items: center;
+}
+.header__items__number img {
+    display: block;
+    width: 11px;
+    height: 11px;
+    margin-right: 10px;
+
+}
+.header__items__number p{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.6667px;
+    line-height: 22px;
+    font-feature-settings: 'liga' off;
+    color: #0D0D0D;
+}
+.header__items__burger{
+    width: 28px;
+    height: 21px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.header__items__burger span{
+    width: 28px;
+    height: 2.1px;
+    background-color: #000;
+}
+
+.header__items__menu {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 690px;
+    height: 886px;
+    background: #FAFBFB;
+    padding-top: 218px;
+    padding-left: 186px;
+    transform: translateX(-220%);
+    transition: 1s;
+}
+.header__items__menu__logo{
+    width: 92%;
+}
+.logo__animation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0%, -100%);
+    transition:1s;
+}
+.showmenu{
+	transform: translateX(0px);
+}
+.showlogo{
+    transform: translate(11%, 42%);
+}
+.header__items__menu li{
+    margin-bottom: 74px;
+}
+.header__items__menu li span {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 23px;
+    color: #BEBEBE;
+    margin-right: 48px;
+    
+}
+.header__items__menu li a {
+    text-decoration: none;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #00303E;
+
+}
+.eclipse {
+    width: 228px;
+    height: 886px;
+    background: #FAFBFB;
+    position: absolute;
+    top: 0%;
+    left: 76%;
+	transform: matrix(-1, 0, 0, 1, 0, 0); 
+	border-radius: 50% 50% 50% 50%;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    transition: 1s;
+
+}
+.sticky + main {
+    padding-top: 118px;
+}
+
+/* =======INTRODUCTION===================== */
+.introduction {
+    margin-bottom: 100px;
+}
+.introduction__section {
+    display: flex;
+    padding-top: 130px;
+}
+
+.introduction__section__block1 {
+    display: flex;
+    flex-direction: column;
+
+}
+.introductiona__text {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #0D0D0D;
+    max-width: 177px;
+    margin-bottom: 56px;
+    position: relative;
+    z-index: 1;
+}
+.introduction__title {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 60px;
+    color: #0D0D0D;
+    max-width: 444px;
+    margin-bottom: 71px;
+}
+.introduction__section__block1__row{
+    display: flex;
+}
+.introduction__button {
+    width: 180px;
+    height: 52px;
+    position: relative;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.introduction__button:hover{
+    background: #2E6C7E;
+}
+.introduction__button:active{
+    background: #012028;
+}
+.introduction__button a{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.introduction__button__decor{
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 33%;
+    left: -8%;
+    transform: rotate(45deg);
+}
+.introduction__button__decor2{
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 33%;
+    right: -8%;
+    transform: rotate(45deg);
+}
+
+.introduction__location {
+    display: flex;
+    align-items: center;
+}
+.introduction__location img{
+    width: 17px;
+    height: 20px;
+    margin-right: 20px;
+}
+.introduction__location p{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 138.2%;
+    color: #0D0D0D;
+    width: 133px;
+}
+/* =========SWIPER============= */
+.swiper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 64.8%;
+    height: 910px;
+    z-index: -1;
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+    background-image: url(img/intro-slider1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.swiper__buttons {
+    position: relative;
+    width: 228px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 22%;
+    height: 38px;
+    justify-content: space-between;
+}
+.swiper-button-next {
+    position: unset;
+}
+.swiper-pagination {
+    position: unset;
+    width: 66px;
+    display: flex;
+    align-items: center;
+    z-index: -1;
+}
+.swiper-pagination-current{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    color: #00303E;
+    margin-right: 8%;
+}
+.swiper-pagination-total{
+    font-weight: 400;
+    font-size: 14.2px;
+    line-height: 16px;
+    color: #0D0D0D;
+    margin-left: 4%;
+}
+.swiper-button-prev {
+    position: unset;
+    margin-left: 90%;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    display: none;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    display: none;
+}
+/* ===============BENEFITS============================= */
+.benefits{
+    width: 100%;
+    padding-bottom: 45px;
+    background: #FAFBFB;
+    padding-top: 60px;
+    position: relative;
+    z-index: 2;
+}
+.benefits__container {
+    width: 72.75%;
+    height: 46px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.benefits__item {
+    display: flex;
+    align-items: center;
+}
+.benefits__item img{
+    width: 27px;
+    height: 27px;
+    margin-right: 30px;
+}
+.benefits__item p{
+    display: block;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #0D0D0D;
+}
+/* ====================================== */
+.videoabout{
+    background-color: #FAFBFB;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    overflow: hidden;
+}
+.video {
+    width: 100%;
+}
+.videoabout__container{
+    position:relative;
+    width:73.51%;
+	margin: 0 auto;
+	overflow: revert;
+}
+.playpause {
+    background-image:url(../img/BUTTON-video.svg);
+    background-repeat:no-repeat;
+    width:10%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
+.playpause:hover{
+	transform: scale(1.2);
+	opacity: 0.9;
+	cursor: pointer;
+}
+.eclipse1{
+	width: 129.5%;
+	height: 20%;
+	background-color: #FAFBFB;
+	margin: 0 auto;
+	border-radius: 50%;
+    position: absolute;
+    bottom: -14%;
+    left: -13%;
+}
+.eclipse2{
+	width: 129.5%;
+	height: 20%;
+	background-color: #FAFBFB;
+	margin: 0 auto;
+	border-radius: 50%;
+    position: absolute;
+    top: -14%;
+    left: -15%;
+}
+/*  */
+.videoabout__description {
+    width: 84.63%;
+    height: 191px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: -8%;
+    right: -5%;
+}
+.videoabout__description__title{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 122%;
+    color: #00303E;
+    margin-left: 60px;
+    width: 29.9%;
+}
+.videoabout__description__item1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.videoabout__description__item1 p{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+.description__item1__block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+}
+.description__item1__block img{
+    width: 13px;
+    height: 18px;
+}
+.description__item1__block p{
+    font-family: 'Futura PT';
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+.videoabout__description__item2{
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+.videoabout__description__text{
+    font-size: 14px;
+    line-height: 18px;
+    color: #565656;
+    width: 41.7%;
+}
+.arrow {
+    width: 42px;
+}
+.videoabout__description__item2__adaptive{
+    display: none;
+}
+.videoabout__description__item1__adaptive{
+    display: none;
+}
+/* ================= */
+.room {
+    width: 100%;
+    height: 1000px;
+    background-color: #00303E;
+    position: relative;
+    overflow: hidden;
+}
+.room__section{
+    margin-top: 10%;
+    display: flex;
+    gap: 70px;
+}
+.roomlook{
+    margin-top: 200px;
+}
+.room__eclipse {
+    width: 113.75%;
+	height: 12%;
+	background-color: #FAFBFB;
+	margin: 0 auto;
+	border-radius: 50%;
+    position: absolute;
+    bottom: -7%;
+    left: -6.5%;
+}
+.room__eclipse1 {
+    width: 113.75%;
+	height: 12%;
+	background-color: #FAFBFB;
+	margin: 0 auto;
+	border-radius: 50%;
+    position: absolute;
+    top: -5%;
+    left: -6.5%;
+}
+.per-veiw{
+    width: 48.3%;
+}
+/* ================SWIPER PER WIEW================== */
+.mySwiper2 {
+    width: 560px;
+    height: 100%;
+    overflow: hidden;
+}
+  
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+}
+  
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+  
+.mySwiper2 {
+    width: 100%;
+    height: 80%;
+    position: static;
+    height: 500px;
+    margin-bottom: 28px;
+}
+  
+.mySwiper {
+    height: 111px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    overflow: hidden;
+}
+.mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+  
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+  
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-buttons{
+    position: absolute;
+    bottom: 13%;
+    left: 34%;
+    width: 438px;
+    height: 8px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: row-reverse;
+    justify-content: flex-end;
+    gap: 48px;
+    align-items: baseline;
+}
+.swiper-button-next1, .swiper-button-prev1 {
+    position: static;
+    top: 50%;
+    width: inherit;
+    height: inherit;
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    width: 51.7%;
+}
+.swiper-button-next1 img, .swiper-button-prev1 img{
+    width: 100%;
+    object-fit: cover;
+}
+.swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,8px));
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,8px));
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #FBC59F;
+    background: #00303E;
+   opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    background-color: #FBC59F;
+}
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap,15px);
+}
+
+/* ================================================== */
+/* ========================ROOM BLOCK INFO============================= */
+.roomlook__block__info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.roomlook__block__info__title{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 122%;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.roomlook__block__info__item2{
+    display: flex;
+    gap: 58px;
+    justify-content: flex-start;
+}
+.roomlook__block__info__item {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.roomlook__block__info__item p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.roomlook__block__info__item p span{
+    font-weight: 500;
+}
+
+.roomlook__block__buttons {
+    display: flex;
+    gap: 40px;
+}
+.roomlook__block__button1 {
+    width: 180px;
+    height: 52px;
+    border: 1px solid #D1D1D1;
+    background: #F2F4F7;
+    position: relative;
+    border: none;
+    z-index: 1;
+    overflow: hidden;
+}
+.roomlook__block__button1:hover{
+    background: #00303E;
+    border: 1px solid white;
+}
+.roomlook__block__button1:active{
+    background: #00303E;
+}
+.roomlook__block__button1 a:hover{
+    color: #FFFFFF;
+}
+.roomlook__block__button1 a{
+    font-family: 'Futura PT';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #00303E;
+    padding: 12px 48px
+}
+.roomlook__block__button1 span{
+    font-weight: 500px;
+    font-size: 30px;
+    line-height: 122%;  
+    color: #0D0D0D;
+    margin-left: 8px;
+    margin-right: 4px;
+}
+.roomlook__block__button1__square1{
+    position: absolute;
+    top: 28.7%;
+    left: -5.5%;
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    transform: rotate(45deg);
+    opacity: 0.9;
+    border: 1px solid #d1d1d1;
+}
+.roomlook__block__button2 {
+    width: 180px;
+    height: 52px;
+    border: none;
+    position: relative;
+    background-color: #FBC59F;
+    cursor: pointer;
+}
+.roomlook__block__button2:hover{
+    background: #FFDEC7;
+}
+.roomlook__block__button2:active{
+    background: #F2B488;
+}
+.roomlook__block__button2 a {
+    text-decoration: none;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.roomlook__block__button2__square1{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 31.3%;
+    left: -6%;
+    background-color: #00303E;
+    border: none;
+    transform: rotate(45deg);
+    opacity: 1;
+    z-index: 2;
+}
+.roomlook__block__button2__square2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 31.3%;
+    right: -6%;
+    background-color: #00303E;
+    border: none;
+    transform: rotate(45deg);
+    opacity: 1;
+}
+.fix{
+    margin-left: 33px;
+}
+.roomlook__block__price{
+    font-weight: 400;
+    font-size: 23.7px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.roomlook__block__price span{
+    font-weight: 450;
+    font-size: 42.1333px;
+    margin-left: 15px;
+    margin-right: 7px;
+}
+/* ================================================== */
+.contacts{
+    padding-bottom: 100px;
+    background-color: #FFFFFF;
+    padding-top: 50px;
+}
+.contacts__section__title{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 122%;
+    color: #0D0D0D;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 60px;
+}
+.map{
+    width: 100%;
+    height: 584px;
+    
+}
+.map__container{
+    position: relative;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.eclipsemap1{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: -17%;
+    left: -12%;
+    width: 130%;
+    height: 21.2%;
+    border-radius: 50%;
+}
+.eclipsemap2{
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom:  -17%;
+    left: -12%;
+    width: 130%;
+    height: 21.2%;
+    border-radius: 50%;
+}
+.contacts__section__item{
+    display: flex;
+    align-items: center;
+}
+.contacts__section__item__adress{
+    margin-right: 100px;
+}
+.contacts__section__item__adress p:nth-child(1){
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.contacts__section__item__adress p:nth-child(2){
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #00303E;
+}
+.contacts__section__item__number {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contacts__section__item__number__icon {
+    width: 16px;
+    height: 16px;
+}
+.contacts__section__item__number p {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144.2%;
+    color: #000000;
+    display: block;
+    width: 55.7%;
+}
+.span__contacts{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 144.2%;
+    color: #000000;
+}
+.contacts__section__item__graphic {
+}
+.contacts__section__item__graphic p:nth-child(1){
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 23px;
+    color: #00303E;
+    margin-bottom: 14px;
+    display: block;
+}
+.contacts__section__item__graphic p:nth-child(2){
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    width: 62%;
+
+}
+.contacts__section__item__button{
+    position: relative;
+    width: 200px;
+    cursor: pointer;
+}
+.contacts__section__item__button:hover{
+    background: #2E6C7E;
+}
+.contacts__section__item__button:active{
+    background: #012028;
+}
+.contacts__section__item__button a {
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.contacts__section__item__button__square{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 30%;
+    left: -7%;
+    background-color: #FAFBFB;
+    transform: rotate(45deg);
+}
+.contacts__section__item__button__square2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 30%;
+    right: -7%;
+    background-color: #FAFBFB;
+    transform: rotate(45deg);
+}
+.contacts__section__item2{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.contacts__section__item2__location{
+    width: 14.7%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.contacts__section__item2 p {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 138.2%;
+    color: #0D0D0D;
+}
+.contacts__section__item2 p span{
+    font-weight: 450;
+}
+.contacts__section__item2__location:nth-child(2){
+    width: 12%;
+    margin-right: 92px;
+}
+.contacts__section__item2__location:nth-child(1){
+    margin-right: 40px;
+}
+/* ================================= */
+.rewiews {
+    background-color: #FAFBFB;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.rewiews__section {
+    display: flex;
+}
+.rewiews__section__item {
+    width: 31%;
+}
+.rewiews__section__title {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 122%;
+    color: #0D0D0D;
+    width: 79%;
+    margin-bottom: 40px;
+}
+.rewiews__section__stars{
+    width: 249px;
+    margin-left: 4.7%;
+    margin-bottom: 65px;
+}
+.rewiews__section__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 65px;
+    margin-left: 31%;
+}
+.rewiew-swiper {
+    overflow: hidden;
+    width: 69%;
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.rewiews__buttons{
+    width: 90%;
+    height: 6px;
+    display: flex;
+
+}
+.swiper-pagination5 {
+    order: 2;
+}
+.swiper-button-prev5 {
+    cursor: pointer;
+    order: 1;
+
+}
+.swiper-button-next5 {
+    cursor: pointer;
+    order: 3;
+}
+/* =============footer=========================== */
+.footer {
+    
+}
+.footer__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+    border-top: 1px solid #E0E0E0;
+}
+.footer__footer__logo img{
+    width: 100%;
+}
+.footer__footer__logo {
+    width: 16.6%;
+}
+.footer__footer__info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.footer__footer__info__block{
+    display: flex;
+    align-items: center;
+    gap: 53px;
+}
+.footer__footer__info a{
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    border-bottom: 1px solid #00303E;
+    color: #00303E;
+    text-decoration: none;
+    width: 154px;
+}
+.footer__footer__info__block p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #D0D0D0;
+}
+.footer__footer__author {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+.rewiews__buttons.swiper-pagination1{
+    width: 130%;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+    width: 130%;
+}
+.roomlook__block__info__title__adaptive{
+    display: none;
+}
+.rewiew-swiper__adaptive{
+    display: none;
+}
+.rewiew-swiper__adaptive{
+    overflow: hidden;
+}
+.rewiews__buttons__adaptive{
+    display: none;
+}
+.contacts__section__item__adaptive{
+    display: none;
+}
+.dots {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #0D0D0D;
+    display: block;
+    margin-left: 26%;
+}
+.header__items__menu li{
+    margin-bottom: 0;
+  }
+.header__items__menu{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+/* =================================================================== */
+
+.open-popup {
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.popup__bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+    z-index: 10;
+}
+.popup__bg.active {
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+}
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: #fff;
+    width: 780px;
+    padding: 25px;
+    transition: 0.5s all;
+}
+.popup__strict{
+    display: flex;
+    align-items: center;
+    height: 36px;
+}
+.popup__strict__input ::placeholder{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00303E;
+}
+.popup__strict__img{
+    width: 16px;
+    height: 16px;
+    margin-right: 20px;
+}
+.popup h2{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #0D0D0D;
+    margin-bottom: 16px;
+    margin-top: 25px;
+}
+.popup__text{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #0D0D0D;
+    width: 312px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.popup__text2{
+    display: block;
+    width: 406px;
+    height: 46px;
+    margin: 0 auto;
+    text-align: center;
+    width: 406px;   
+    height: 46px;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #0D0D0D;
+    margin-bottom: 20px;
+}
+.popup.active {
+    transform: translate(-50%, -50%) scale(1);
+    transition: 0.5s all;
+}
+.close-popup {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.popup label {
+    width: 260px;
+    margin-bottom: 25px;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.popup .label__text {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #cfd0d3;
+    margin-bottom: 5px;
+}
+.popup input {
+    text-align: center;
+    width: 100%;
+    height: 36px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00303E;
+    background-image: url(../img/phone.svg);
+    background-repeat: no-repeat;
+    background-position: 10% 36%;
+    border-bottom: 1px solid #00303E;
+    background-size: 6%;
+    padding-bottom: 10px;
+}
+.popup input::placeholder{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.popup input:focus {
+    border-bottom: 1px solid #2982ff;
+}
+
+.popup input:focus + .label__text {
+    color: #2982ff;
+}
+
+.popup textarea {
+    resize: none;
+    width: 100%;
+    height: 150px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #cfd0d3;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.popup textarea:focus {
+    border-bottom: 1px solid #2982ff;
+}
+
+.popup textarea:focus + .label__text {
+    color: #2982ff;
+}
+
+.popup button {
+    border: none;
+    width: 180px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    background: #00303E;
+    cursor: pointer;
+    transition: 0.5s all;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.submit__eclipse{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 30%;
+    left: -7%;
+    background: #FFFFFF;
+    transform: rotate(45deg);
+}  
+
+.submit__eclipse2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 30%;
+    right: -7%;
+    background: #FFFFFF;
+    transform: rotate(45deg);
+} 
+
+.popup button:hover {
+    background: #2E6C7E;
+    transition: 0.5s all;
+}
+.popup button:active {
+    transition: 0.5s all;
+    background: #012028;
+}
+/* =================================================================== */
+  
+  
+
+
+
+
+/*  */
+.header__items__burger {
+        position: relative;
+  }
+  
+  .header__items__burger:focus {
+    outline-width: 0;
+  }
+  
+  .header__items__burger [class*='bar-'] {
+    background: #000;
+    display: block;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: .2s ease all;
+            transition: .2s ease all;
+    border-radius: 8px;
+    height: 2.1px;
+    width: 28px;
+    margin-bottom: 7px;
+  }
+  
+  .header__items__burger .bar-bot {
+    margin-bottom: 0;
+  }
+  
+  .opened .bar-top {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 15% 15%;
+            transform-origin: 15% 15%;
+            width: 37px;
+  }
+  .opened .bar-mid {
+    opacity: 0;
+  }
+  .opened .bar-bot {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 15% 95%;
+            transform-origin: 15% 95%;
+            width: 37px;
+  }
+
+
+
+
+
+
+
+
+
+
+/* */

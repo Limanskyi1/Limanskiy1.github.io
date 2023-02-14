@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/avenir-next-cyr" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/index.media.css">
+    <title>oroginal</title>
+</head>
+<body>
+    <header class="header" id="myHeader">
+        <div class="header__header container">
+            <div class="header__logo">
+                <a href="inddex.html"><img src="img/logo.svg" alt="" class="header__logo__link"></a>
+            </div>
+            <nav class="header__items">
+                <select class="header__items__ukr">
+                    <option value="" style="background-image: url(img/ukraine.svg);"></option>
+                    <option value="">eng</option>
+                </select>
+                <div class="header__items__number">
+                    <img src="img/phone.svg" alt="">
+                    <p>+38 063 877 6138</p>
+                </div>
+                <div class="header__items__burger">
+                    <span class="bar-top"></span>
+                    <span class="bar-mid"></span>
+                    <span class="bar-bot"></span>
+                </div>
+                <ul class="header__items__menu">
+                    <li><span>01</span><a href="inddex.html#videoabout" class="header__items__menu__link__video">Відео-огляд</a></li>
+                    <span class="dots"></span>
+					<li><span>02</span><a href="rooms-view.html">Номери</a></li>
+                    <span class="dots"></span>
+					<li><span>03</span><a href="apartment-view.html">Апартаменти</a></li>
+                    <span class="dots"></span>
+					<li><span>04</span><a href="inddex.html#rewiew" class="header__items__menu__link__rewiews">Відгуки</a></li>
+                    <span class="dots"></span>
+					<li><span>05</span><a href="inddex.html#contacts" class="header__items__menu__link__contacts">Контакти</a></li>
+					<div class="eclipse"></div>
+                </ul>
+            </nav>
+        </div>
+        <div class="logo__animation">
+            <img src="img/logobig1.svg" alt="" class="header__items__menu__logo">
+        </div>
+    </header>
+    <main>
+        <section class="introduction">
+            <div class="introduction__section container">
+                <div class="introduction__section__block1">
+                    <p class="introductiona__text">Комфортний відпочинок у центрі Києва</p>
+                    <h1 class="introduction__title">KYIV VIEW HOTEL & APARTMENTS</h1>
+                    <div class="introduction__section__block1__row">
+                            <button class="introduction__button button"> <a href="">Забронювати</a>
+                                <div class="introduction__button__decor"></div>
+                                <div class="introduction__button__decor2"></div>
+                            </button>
+                            <div class="introduction__location">
+                                <img src="img/Location.svg" alt="">
+                                <p><b>Південний вокзал </b>4 хв - 600 м</p>
+                            </div>
+                    </div>
+                    <div class="swiper__buttons">
+                        <div class="swiper__buttons__nav">
+                            <div class="swiper-button-next"><img src="img/Vector-slider.svg" alt=""></div>
+                            <div class="swiper-button-prev"><img src="img/Vector-slider2.svg" alt=""></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/first-slider-1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/first-slider-2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/first-slider-3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/first-slider-4.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/first-slider-5.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/first-slider-5.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="benefits">
+            <div class="benefits__container">
+                <div class="benefits__item">
+                    <img src="img/benefits1.svg" alt="wi-fi">
+                    <p>Безкоштовний Wi-Fi</p>
+                </div>
+                <div class="benefits__item">
+                    <img src="img/benfits2.svg" alt="wi-fi">
+                    <p>Паркінг знаходиться за 140 м від готелю</p>
+                </div>
+                <div class="benefits__item">
+                    <img src="img/benefits3.svg" alt="wi-fi">
+                    <p>Трансфер з/до аеропорту</p>
+                </div>
+                <div class="benefits__item">
+                    <img src="img/benefits4.svg" alt="wi-fi">
+                    <p>Цілодобова охорона</p>
+                </div>
+            </div>
+        </div>
+        <section class="videoabout" id="videoabout">
+            <div class="videoabout__container">
+                <video class="video">
+                    <source src="video/videoabout.mp4" type="video/mp4" />
+                </video>
+                <div class="eclipse1"></div>
+                <div class="eclipse2"></div>
+              <div class="playpause"></div>
+              <div class="videoabout__description">
+                <h2 class="videoabout__description__title">Відео-огляд готелю та апартаментів</h2>
+                <div class="videoabout__description__item1">
+                    <p>Презентація всіх номерів</p>
+                    <div class="description__item1__block">
+                        <img src="img/hourglass.svg" alt="">
+                        <p>Час перегляду: 60 секунд</p>
+                    </div>
+                </div>
+                    <div class="videoabout__description__item2">
+                        <p class="videoabout__description__text">Натисніть,щоб подивитися</p>
+                        <img src="img/arroww.svg" alt="" class="arrow">
+                    </div>
+              </div>
+            </div>
+            <div class="videoabout__description__item2__adaptive container">
+                <img src="img/arrow-up.svg" alt="" class="arrow__adaptive">
+                <p class="videoabout__description__text__adaptive">Натисніть,щоб подивитися</p>
+            </div>
+            <div class="videoabout__description__item1__adaptive container">
+                <p class="videoabout__description__item1__adaptive__text">Презентація всіх номерів</p>
+                <div class="description__item1__block description__item1__block__adaptive">
+                    <img src="img/hourglass.svg" alt="">
+                    <p>Час перегляду: 60 секунд</p>
+                </div>
+            </div>
+        </section>
+        <section class="room">
+            <div class="room__section container">
+                <h2 class="roomlook__block__info__title roomlook__block__info__title__adaptive">«Двомісний стандарт»</h2>
+                <div class="per-veiw">
+                     <!-- swiper -->
+                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class=" mySwiper2">
+                            <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/photo10.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/photo10.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/photo10.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/photo10.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/photo10.png" />
+                            </div>
+                            </div>
+                            <div class="swiper-buttons">
+                            <div class="swiper-button-next1"><img src="img/Arrow 3gold.svg" alt=""></div>
+                            <div class="swiper-pagination1"></div>
+                            <div class="swiper-button-prev1"><img src="img/Arrow 2.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div thumbsSlider="" class=" mySwiper">
+                            <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/photo10.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/photo10.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/photo10.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/photo10.png" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/photo10.png" />
+                            </div>
+                        </div>
+                        <!-- swiper -->
+                </div>
+            </div>
+                <div class="roomlook__block__info">
+                    <h2 class="roomlook__block__info__title">«Двомісний стандарт»</h2>
+                    <div class="roomlook__block__info__item2">
+                        <div class="roomlook__block__info__item">
+                            <img src="img/item01.svg" alt="size of room">
+                            <p> 15 кв. м </p>
+                        </div>
+                        <div class="roomlook__block__info__item">
+                            <img src="img/item02.svg" alt="bed">
+                            <p>Вид на пам'ятку</p>
+                        </div>
+                    </div>
+                    <div class="roomlook__block__info__item2">
+                        <div class="roomlook__block__info__item">
+                            <img src="img/item03.svg" alt="bed">
+                            <p>Вид на місто</p>
+                        </div>
+                        <div class="roomlook__block__info__item">
+                            <img src="img/item04.svg" alt="bed">
+                            <p>Кондиціонер</p>
+                        </div>
+                    </div>
+                    <div class="roomlook__block__info__item">
+                        <img src="img/item05.svg" alt="bed">
+                        <p>Ванна кімната в номері</p>
+                    </div>
+                    <div class="roomlook__block__info__item">
+                        <img src="img/item06.svg" alt="bed">
+                        <p>Телевізор з плоским екраном</p>
+                    </div>
+                    <div class="roomlook__block__info__item2">
+                        <div class="roomlook__block__info__item">
+                            <img src="img/mini-bar.svg" alt="mini-bar">
+                            <p>Міні-бар</p>
+                        </div>
+                        <div class="roomlook__block__info__item">
+                            <img src="img/item77.svg" alt="">
+                            <p>Безкоштовний Wi-Fi</p>
+                        </div>
+                    </div>
+                    <div class="roomlook__block__price">від <span>25$</span> /ніч
+                    </div>
+                    
+                    <div class="roomlook__block__buttons">
+                        <button class="roomlook__block__button2 open-popup"><a href="#">Забронювати</a>
+                            <div class="roomlook__block__button2__square1"></div>
+                            <div class="roomlook__block__button2__square2"></div>
+                        </button>
+                        <button class="roomlook__block__button1"><a href="#">Детальніше</a>
+                            <div class="roomlook__block__button2__square1"></div>
+                            <div class="roomlook__block__button2__square2"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="room__eclipse"></div>
+            <div class="room__eclipse1"></div>
+        </section>
+        <section class="rewiews" id="rewiew">
+            <div class="rewiews__section container">
+                <div class="rewiews__section__item">
+                    <h2 class="rewiews__section__title">Ми завжди читаємо ваші відгуки</h2>
+                    <div class="rewiews__section__item__block">
+                        <img src="img/stars.svg" alt="" class="rewiews__section__stars">
+                    <p class="rewiews__section__text">1033 відгуки </p>
+                    <div class="rewiews__buttons">
+                        <div class="swiper-pagination5"></div>
+                        <div class="swiper-button-prev5"><img src="img/Arrow 2-rewiew.svg" alt=""></div>
+                        <div class="swiper-button-next5"><img src="img/Arrow 3-rewiew.svg" alt=""></div>
+                    </div>
+                    </div>   
+                </div>
+                <div class="rewiew-swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/rewiew-swiper.svg" alt=""></div>
+                      <div class="swiper-slide"><img src="img/rewiew-swiper.svg" alt=""></div>
+                      <div class="swiper-slide"><img src="img/rewiew-swiper.svg" alt=""></div>
+                      <div class="swiper-slide"><img src="img/rewiew-swiper.svg" alt=""></div>
+                      <div class="swiper-slide"><img src="img/rewiew-swiper.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="rewiew-swiper__adaptive">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/rewiew-adaptive1.svg" alt=""></div>
+                      <div class="swiper-slide"><img src="img/rewiew-adaptive1.svg" alt=""></div>
+                      <div class="swiper-slide"><img src="img/rewiew-adaptive1.svg" alt=""></div>
+                      <div class="swiper-slide"><img src="img/rewiew-adaptive1.svg" alt=""></div>
+                      <div class="swiper-slide"><img src="img/rewiew-adaptive1.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="rewiews__buttons__adaptive">
+                    <div class="swiper-pagination5__adapt"></div>
+                    <div class="swiper-button-prev5__adapt"><img src="img/Arrow 2-rewiew.svg" alt=""></div>
+                    <div class="swiper-button-next5__adapt"><img src="img/Arrow 3-rewiew.svg" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="contacts__section container">
+                <h2 class="contacts__section__title">Контакти</h2>
+                <div class="map__container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.280528305363!2d30.485603015689225!3d50.435875196296124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ceec7a99cce5%3A0x10eae39ea4dff85d!2z0YPQuy4g0JLQsNGB0LjQu9C40Y8g0JvQuNC_0LrQvtCy0YHQutC-0LPQviwgMTbQsywg0JrQuNC10LIsIDAzMDM1!5e0!3m2!1sru!2sua!4v1675112529587!5m2!1sru!2sua"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map">
+
+                    </iframe>
+                    <div class="eclipsemap1"></div>
+                    <div class="eclipsemap2"></div> 
+                </div>
+                <div class="contacts__section__item">
+                    <div class="contacts__section__item__adress">
+                        <p>Адреса:</p>
+                        <p>вулиця Василя Липківського, 16Г, Київ, 02000</p>
+                    </div>
+                    <div class="contacts__section__item__number">
+                        <div class="contacts__section__item__number__icon"><img src="img/contacts.svg" alt=""></div>
+                        <p><span class="span__contacts">Телефон адміністрації:</span> +38 063 877 6138</p>
+                    </div>
+                    <div class="contacts__section__item__graphic">
+                        <p>Графік</p>
+                        <p>Заїзд:  з 14:00
+                            Виїзд:  03:00–12:00</p>
+                    </div>
+                    <div class="contacts__section__item__button button"><a href="https://goo.gl/maps/Q1N9DMTBP6Fw7RT7A">Відкрити мапу</a>
+                        <div class="contacts__section__item__button__square"></div>
+                        <div class="contacts__section__item__button__square2"></div>
+                    </div>
+                </div>
+                <div class="contacts__section__item2">
+                    <div class="contacts__section__item2__location">
+                        <img src="img/Location5.svg" alt="">
+                        <p><span> Південний вокзал</span> 4 хв - 600 м</p>
+                    </div>
+                    <div class="contacts__section__item2__location">
+                        <img src="img/Location5.svg" alt="">
+                        <p><span>м. Вокзальна</span>  7 хв - 950 м</p>
+                    </div>
+                    <div class="contacts__section__item2__location">
+                        <img src="img/mail.svg" alt="">
+                        <p><span>  Пошта:</span><br> kyivview@yahoo.com</p>
+                    </div>
+                </div>
+                <div class="contacts__section__item__adaptive">
+                    <div class="contacts__section__item__button button"><a href="https://goo.gl/maps/Q1N9DMTBP6Fw7RT7A">Відкрити мапу</a>
+                        <div class="contacts__section__item__button__square"></div>
+                        <div class="contacts__section__item__button__square2"></div>
+                    </div>
+                    <div class="contacts__section__item__adress">
+                        <p>Адреса:</p>
+                        <p>вулиця Василя Липківського, 16Г, Київ, 02000</p>
+                    </div>
+                    <div class="contacts__section__item2__location">
+                        <img src="img/Location5.svg" alt="">
+                        <p><span> Південний вокзал</span> 4 хв - 600 м</p>
+                    </div>
+                    <div class="contacts__section__item2__location">
+                        <img src="img/Location5.svg" alt="">
+                        <p><span>м. Вокзальна</span>  7 хв - 950 м</p>
+                    </div>
+                    <div class="contacts__section__item__number">
+                        <div class="contacts__section__item__number__icon"><img src="img/contacts.svg" alt=""></div>
+                        <p><span class="span__contacts">Телефон адміністрації:</span> +38 063 877 6138</p>
+                    </div>
+                    <div class="contacts__section__item2__location">
+                        <img src="img/mail.svg" alt="">
+                        <p><span>  Пошта:</span><br> kyivview@yahoo.com</p>
+                    </div>
+                    <div class="contacts__section__item__graphic">
+                        <p>Графік</p>
+                        <p>Заїзд:  з 14:00 <br>
+                            Виїзд:  03:00–12:00</p>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__footer container">
+            <div class="footer__footer__logo"><img src="img/logo.svg" alt=""></div>
+            <div class="footer__footer__info">
+                <a href="#">Юридичні документи</a>
+                <div class="footer__footer__info__block">
+                    <p>Since 2018</p>
+                    <p>2023 © Kyiv view</p>
+                </div>
+            </div>
+            <div class="footer__footer__author">Made by Havriil Nikitin</div>
+        </div>
+    </footer>
+    <div class="popup__bg">
+        <form class="popup">
+            <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="close-popup">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 28.5938L28.5714 0.468752L30 1.875L1.42857 30L0 28.5938Z" fill="#00303E"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.42858 0L30 28.125L28.5714 29.5313L3.74669e-06 1.40625L1.42858 0Z" fill="#00303E"/>
+                </svg>
+            <h2>Забронювати номер</h2>
+            <p class="popup__text">Залиште номер телефону для бронювання
+                і ми зателефонуємо вам протягом дня</p>
+            <label class="popup__strict">
+
+                <input type="tel" name="tel" placeholder="Номер телефону" class="popup__strict__input">
+            </label>
+            <button type="submit">Забронювати
+                <div class="submit__eclipse"></div>
+                <div class="submit__eclipse2"></div>
+            </button>
+            <p class="popup__text2">Натискаючи на кнопку, ви погоджуєтеся з умовами обробки даних і політикою конфіденційності</p>
+        </form>
+    </div>  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

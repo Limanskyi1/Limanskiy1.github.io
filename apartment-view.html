@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/rooms-view.css">
+    <link rel="stylesheet" href="css/apartment-view.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/roooms-view-media.css">
+    <link rel="stylesheet" href="css/apartment-view-media.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header" id="myHeader">
+        <div class="header__header container">
+            <div class="header__logo">
+                <a href="inddex.html"><img src="img/logo.svg" alt="" class="header__logo__link"></a>
+            </div>
+            <nav class="header__items">
+                <select class="header__items__ukr">
+                    <option value="">ukr</option>
+                    <option value="">eng</option>
+                </select>
+                <div class="header__items__number">
+                    <img src="img/phone.svg" alt="">
+                    <p>+38 063 877 6138</p>
+                </div>
+                <div class="header__items__burger">
+                    <span class="bar-top"></span>
+                    <span class="bar-mid"></span>
+                    <span class="bar-bot"></span>
+                </div>
+                <ul class="header__items__menu">
+                    <li><span>01</span><a href="inddex.html#videoabout" class="header__items__menu__link__video">Відео-огляд</a></li>
+                    <span class="dots"></span>
+					<li><span>02</span><a href="rooms-view.html">Номери</a></li>
+                    <span class="dots"></span>
+					<li><span>03</span><a href="apartment-view.html">Апартаменти</a></li>
+                    <span class="dots"></span>
+					<li><span>04</span><a href="inddex.html#rewiew" class="header__items__menu__link__rewiews">Відгуки</a></li>
+                    <span class="dots"></span>
+					<li><span>05</span><a href="inddex.html#contacts" class="header__items__menu__link__contacts">Контакти</a></li>
+					<div class="eclipse"></div>
+                </ul>
+            </nav>
+        </div>
+        <div class="logo__animation">
+            <img src="img/logobig1.svg" alt="" class="header__items__menu__logo">
+        </div>
+    </header>
+    <main>
+        <section class="main-block main-block__apartment">
+            <div class="main-block__section container ">
+                <div class="main-block__navigation">
+                    <p>Назад на головну</p>
+                    <a href="inddex.html"><img src="img/room-view-arrow.svg" alt="arrow-navigation"></a>
+                </div>
+                <h1 class="main-block__title">KYIV VIEW HOTEL & APARTMENTS</h1>
+                <p class="main-block__text">Розширений огляд апартаментів</p>
+                <div class="main-block__buttons">
+                    <button class="main-block__button1"><a href="rooms-view.html">Номери</a>
+                        <div class="main-block__button1__decor"></div>
+                        <div class="main-block__button1__decor2"></div>
+                    </button>
+                    <button class="main-block__button2"><a href="apartment-view.html">Апартаменти</a>
+                        <div class="main-block__button1__decor21"></div>
+                        <div class="main-block__button1__decor22"></div>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <div class="main">
+            <div class="main__wrapper container">
+                <section class="roomlook">
+                    <div class="roomlook__head">
+                        <h2 class="roomlook__title">«Покращені Апартаменти з кухнею»</h2>
+                        <a href='www.google.com' class="roomlook__link">
+                            <btn class="rz-body">
+                              Відео-огляд <span class="rz-triangle"></span>
+                            </btn>
+                          </a>
+                    </div>
+                    <div class="roomlook__block">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                            </div>
+                            <div class="swiper__buttons">
+                                <div class="swiper-button-next"><img src="img/Arrow 3.svg" alt=""></div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev"><img src="img/Arrow 2.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="roomlook__block__info">
+                            <a href='www.google.com' class="roomlook__link__adaptive">
+                                <btn class="rz-body">
+                                  Відео-огляд <span class="rz-triangle"></span>
+                                </btn>
+                              </a>
+                            <div class="roomlook__block__info__item">
+                                <img src="img/item1.svg" alt="size of room">
+                                <p><span class="medim">Розмір номера:</span> 20 м²</p>
+                            </div>
+                            <div class="roomlook__block__info__item">
+                                <img src="img/item2.svg" alt="bed">
+                                <p>1 двоспальне ліжко</p>
+                            </div>
+                            <div class="roomlook__block__info__item">
+                                <p>Зручності</p>
+                                <img src="img/item3.svg" alt="">
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item4.svg" alt="bed">
+                                    <p>Вид на пам'ятку</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/kitchen.svg" alt="bed">
+                                    <p>Власна кухня</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item6.svg" alt="bed">
+                                    <p>Вид на місто</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/bathroom.svg" alt="bed">
+                                    <p>Ванна кімната в номері</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item8.svg" alt="bed">
+                                    <p>Телевізор з плоским екраном</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item9.svg" alt="bed">
+                                    <p>Міні-бар</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item10.svg" alt="">
+                                    <p>Безкоштовний Wi-Fi</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item5.svg" alt="bed">
+                                    <p>Кондиціонер</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__buttons">
+                                <div class="roomlook__block__button1">
+                                    <svg viewBox="0 0 180 53" fill="none" color="red" xmlns="http://www.w3.org/2000/svg" class="roomlook__block__button1__svg">
+                                      <path d="M173.318 25.2424L173.212 25.4575L173.313 25.6751L179.5 38.9748V51.7642H0.5V39.0025L8.22107 26.1212L8.37515 25.8642L8.22107 25.6071L0.5 12.7258V0.76416H179.5V12.7472L173.318 25.2424Z" stroke="#D1D1D1"/>
+                                      </svg>
+                                      <p class="roomlook__block__button1__text">від<span>30$</span>/ніч</p>
+                                  </div>
+                                <button class="roomlook__block__button2 open-popup"><a href="">Забронювати</a>
+                                    <div class="roomlook__block__button2__square1"></div>
+                                    <div class="roomlook__block__button2__square2"></div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+                <section class="roomlook">
+                    <div class="roomlook__head">
+                        <h2 class="roomlook__title">«Апартаменти-студіо»</h2>
+                        <a href='www.google.com' class="roomlook__link">
+                            <btn class="rz-body">
+                              Відео-огляд <span class="rz-triangle"></span>
+                            </btn>
+                          </a>
+                    </div>
+                    <div class="roomlook__block">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                            </div>
+                            <div class="swiper__buttons swiper__buttons__adaptive3">
+                                <div class="swiper-button-next"><img src="img/Arrow 3.svg" alt=""></div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev"><img src="img/Arrow 2.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="roomlook__block__info">
+                            <a href='www.google.com' class="roomlook__link__adaptive">
+                                <btn class="rz-body">
+                                  Відео-огляд <span class="rz-triangle"></span>
+                                </btn>
+                              </a>
+                            <div class="roomlook__block__info__item">
+                                <img src="img/item1.svg" alt="size of room">
+                                <p><span class="medim">Розмір номера: </span>25 м²</p>
+                            </div>
+                            <div class="roomlook__block__info__item">
+                                <img src="img/item2.svg" alt="bed">
+                                <p>1 широке двоспальне ліжко</p>
+                            </div>
+                            <div class="roomlook__block__info__item">
+                                <p>Зручності</p>
+                                <img src="img/item3.svg" alt="">
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item4.svg" alt="bed">
+                                    <p>Вид на пам'ятку</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/mini-kitchen.svg" alt="bed">
+                                    <p>Власна міні-кухня</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item6.svg" alt="bed">
+                                    <p>Вид на місто</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/bathroom.svg" alt="bed">
+                                    <p>Ванна кімната в номері</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item8.svg" alt="bed">
+                                    <p>Телевізор з плоским екраном</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item9.svg" alt="bed">
+                                    <p>Міні-бар</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item10.svg" alt="">
+                                    <p>Безкоштовний Wi-Fi</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item5.svg" alt="bed">
+                                    <p>Кондиціонер</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__buttons">
+                                <div class="roomlook__block__button1">
+                                    <svg viewBox="0 0 180 53" fill="none" color="red" xmlns="http://www.w3.org/2000/svg" class="roomlook__block__button1__svg">
+                                      <path d="M173.318 25.2424L173.212 25.4575L173.313 25.6751L179.5 38.9748V51.7642H0.5V39.0025L8.22107 26.1212L8.37515 25.8642L8.22107 25.6071L0.5 12.7258V0.76416H179.5V12.7472L173.318 25.2424Z" stroke="#D1D1D1"/>
+                                      </svg>
+                                      <p class="roomlook__block__button1__text">від<span>33$</span>/ніч</p>
+                                  </div>
+                                <button class="roomlook__block__button2 open-popup"><a href="">Забронювати</a>
+                                    <div class="roomlook__block__button2__square1"></div>
+                                    <div class="roomlook__block__button2__square2"></div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+                <section class="roomlook">
+                    <div class="roomlook__head">
+                        <h2 class="roomlook__title roomlook__title__apart">«Номер-студіо з ліжком розміру "king-size" та диван-ліжком»</h2>
+                        <a href='www.google.com' class="roomlook__link">
+                            <btn class="rz-body">
+                              Відео-огляд <span class="rz-triangle"></span>
+                            </btn>
+                          </a>
+                    </div>
+                    <div class="roomlook__block">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                            </div>
+                            <div class="swiper__buttons swiper__buttons__adaptive1">
+                                <div class="swiper-button-next"><img src="img/Arrow 3.svg" alt=""></div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev"><img src="img/Arrow 2.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="roomlook__block__info">
+                            <a href='www.google.com' class="roomlook__link__adaptive">
+                                <btn class="rz-body">
+                                  Відео-огляд <span class="rz-triangle"></span>
+                                </btn>
+                              </a>
+                            <div class="roomlook__block__info__item">
+                                <img src="img/item1.svg" alt="size of room">
+                                <p><span class="medim">Розмір номера:</span> 25 м²</p>
+                            </div>
+                            <div class="roomlook__block__info__item2 roomlook__block__info__item__long">
+                                <div class="roomlook__block__info__item ">
+                                    <img src="img/item2.svg" alt="bed">
+                                    <p>1 широке двоспальне ліжко<span class="fix">і</span></p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item11.svg" alt="bed">
+                                    <p>1 диван-ліжко</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item">
+                                <p>Зручності</p>
+                                <img src="img/item3.svg" alt="">
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item4.svg" alt="bed">
+                                    <p>Вид на пам'ятку</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/kitchen.svg" alt="bed">
+                                    <p>Власна кухня</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item6.svg" alt="bed">
+                                    <p>Вид на місто</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/bathroom.svg" alt="bed">
+                                    <p>Ванна кімната в номері</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item8.svg" alt="bed">
+                                    <p>Телевізор з плоским екраном</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item9.svg" alt="bed">
+                                    <p>Міні-бар</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item10.svg" alt="">
+                                    <p>Безкоштовний Wi-Fi</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item5.svg" alt="bed">
+                                    <p>Кондиціонер</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__buttons">
+                                <div class="roomlook__block__button1">
+                                    <svg viewBox="0 0 180 53" fill="none" color="red" xmlns="http://www.w3.org/2000/svg" class="roomlook__block__button1__svg">
+                                      <path d="M173.318 25.2424L173.212 25.4575L173.313 25.6751L179.5 38.9748V51.7642H0.5V39.0025L8.22107 26.1212L8.37515 25.8642L8.22107 25.6071L0.5 12.7258V0.76416H179.5V12.7472L173.318 25.2424Z" stroke="#D1D1D1"/>
+                                      </svg>
+                                      <p class="roomlook__block__button1__text">від<span>37$</span>/ніч</p>
+                                  </div>
+                                <button class="roomlook__block__button2 open-popup"><a href="">Забронювати</a>
+                                    <div class="roomlook__block__button2__square1"></div>
+                                    <div class="roomlook__block__button2__square2"></div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+                <section class="roomlook">
+                    <div class="roomlook__head">
+                        <h2 class="roomlook__title roomlook__title__apart2">«Апартаменти студіо з кухнею»</h2>
+                        <a href='www.google.com' class="roomlook__link">
+                            <btn class="rz-body">
+                              Відео-огляд <span class="rz-triangle"></span>
+                            </btn>
+                          </a>
+                    </div>
+                    <div class="roomlook__block">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                            </div>
+                            <div class="swiper__buttons swiper__buttons__adaptive4">
+                                <div class="swiper-button-next"><img src="img/Arrow 3.svg" alt=""></div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev"><img src="img/Arrow 2.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="roomlook__block__info">
+                            <a href='www.google.com' class="roomlook__link__adaptive">
+                                <btn class="rz-body">
+                                  Відео-огляд <span class="rz-triangle"></span>
+                                </btn>
+                              </a>
+                            <div class="roomlook__block__info__item">
+                                <img src="img/item1.svg" alt="size of room">
+                                <p><span class="medim">Розмір номера:</span> 20м²</p>
+                            </div>
+                            <div class="roomlook__block__info__item">
+                                <img src="img/item2.svg" alt="bed">
+                                <p>1 двоспальне ліжко</p>
+                            </div>
+                            <div class="roomlook__block__info__item">
+                                <p>Зручності</p>
+                                <img src="img/item3.svg" alt="">
+                            </div>
+                            <div class="roomlook__block__info__item3 roomlook__block__info__item3__adaptive">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item4.svg" alt="bed">
+                                    <p>Вид на пам'ятку</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/kitchen.svg" alt="bed">
+                                    <p>Власна кухня</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/volume-izolation.svg" alt="bed">
+                                    <p>Звукоізоляція</p>
+                                </div>
+                            </div>
+                            
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item6.svg" alt="bed">
+                                    <p>Вид на місто</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/bathroom.svg" alt="bed">
+                                    <p>Ванна кімната в номері</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item8.svg" alt="bed">
+                                    <p>Телевізор з плоским екраном</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item9.svg" alt="bed">
+                                    <p>Міні-бар</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item10.svg" alt="">
+                                    <p>Безкоштовний Wi-Fi</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item5.svg" alt="bed">
+                                    <p>Кондиціонер</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__buttons">
+                                <div class="roomlook__block__button1">
+                                    <svg viewBox="0 0 180 53" fill="none" color="red" xmlns="http://www.w3.org/2000/svg" class="roomlook__block__button1__svg">
+                                      <path d="M173.318 25.2424L173.212 25.4575L173.313 25.6751L179.5 38.9748V51.7642H0.5V39.0025L8.22107 26.1212L8.37515 25.8642L8.22107 25.6071L0.5 12.7258V0.76416H179.5V12.7472L173.318 25.2424Z" stroke="#D1D1D1"/>
+                                      </svg>
+                                      <p class="roomlook__block__button1__text">від<span>30$</span>/ніч</p>
+                                  </div>
+                                <button class="roomlook__block__button2 open-popup"><a href="">Забронювати</a>
+                                    <div class="roomlook__block__button2__square1"></div>
+                                    <div class="roomlook__block__button2__square2"></div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+                <section class="roomlook">
+                    <div class="roomlook__head">
+                        <h2 class="roomlook__title roomlook__title__apart3">«Апартаменти делюкс з кухнею»</h2>
+                        <a href='www.google.com' class="roomlook__link">
+                            <btn class="rz-body">
+                              Відео-огляд <span class="rz-triangle"></span>
+                            </btn>
+                          </a>
+                    </div>
+                    <div class="roomlook__block">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                            </div>
+                            <div class="swiper__buttons swiper__buttons__adaptive2">
+                                <div class="swiper-button-next"><img src="img/Arrow 3.svg" alt=""></div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev"><img src="img/Arrow 2.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="roomlook__block__info">
+                            <a href='www.google.com' class="roomlook__link__adaptive">
+                                <btn class="rz-body">
+                                  Відео-огляд <span class="rz-triangle"></span>
+                                </btn>
+                              </a>
+                            <div class="roomlook__block__info__item">
+                                <img src="img/item1.svg" alt="size of room">
+                                <p><span class="medim">Розмір номера:</span> 27м²</p>
+                            </div>
+                            <div class="roomlook__block__info__item">
+                                <img src="img/item2.svg" alt="bed">
+                                <p>1 двоспальне ліжко</p>
+                            </div>
+                            <div class="roomlook__block__info__item">
+                                <p>Зручності</p>
+                                <img src="img/item3.svg" alt="">
+                            </div>
+                            <div class="roomlook__block__info__item3 roomlook__block__info__item3__adaptive">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item4.svg" alt="bed">
+                                    <p>Вид на пам'ятку</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/kitchen.svg" alt="bed">
+                                    <p>Власна кухня</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/volume-izolation.svg" alt="bed">
+                                    <p>Звукоізоляція</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item6.svg" alt="bed">
+                                    <p>Вид на місто</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/bathroom.svg" alt="bed">
+                                    <p>Ванна кімната в номері</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item8.svg" alt="bed">
+                                    <p>Телевізор з плоским екраном</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item9.svg" alt="bed">
+                                    <p>Міні-бар</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item10.svg" alt="">
+                                    <p>Безкоштовний Wi-Fi</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item5.svg" alt="bed">
+                                    <p>Кондиціонер</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__buttons">
+                                <div class="roomlook__block__button1">
+                                    <svg viewBox="0 0 180 53" fill="none" color="red" xmlns="http://www.w3.org/2000/svg" class="roomlook__block__button1__svg">
+                                      <path d="M173.318 25.2424L173.212 25.4575L173.313 25.6751L179.5 38.9748V51.7642H0.5V39.0025L8.22107 26.1212L8.37515 25.8642L8.22107 25.6071L0.5 12.7258V0.76416H179.5V12.7472L173.318 25.2424Z" stroke="#D1D1D1"/>
+                                      </svg>
+                                      <p class="roomlook__block__button1__text">від<span>35$</span>/ніч</p>
+                                  </div>
+                                <button class="roomlook__block__button2 open-popup"><a href="">Забронювати</a>
+                                    <div class="roomlook__block__button2__square1"></div>
+                                    <div class="roomlook__block__button2__square2"></div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+                <section class="roomlook">
+                    <div class="roomlook__head">
+                        <h2 class="roomlook__title roomlook__title__apart4">«Апартаменти в пентхаусі з кухнею»</h2>
+                        <a href='www.google.com' class="roomlook__link">
+                            <btn class="rz-body">
+                              Відео-огляд <span class="rz-triangle"></span>
+                            </btn>
+                          </a>
+                    </div>
+                    <div class="roomlook__block">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                            </div>
+                            <div class="swiper__buttons swiper__buttons__adaptive">
+                                <div class="swiper-button-next"><img src="img/Arrow 3.svg" alt=""></div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev"><img src="img/Arrow 2.svg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="roomlook__block__info">
+                            <a href='www.google.com' class="roomlook__link__adaptive">
+                                <btn class="rz-body">
+                                  Відео-огляд <span class="rz-triangle"></span>
+                                </btn>
+                              </a>
+                            <div class="roomlook__block__info__item">
+                                <img src="img/item1.svg" alt="size of room">
+                                <p><span class="medim">Розмір номера:</span> 35м²</p>
+                            </div>
+                            <div class="roomlook__block__info__item">
+                                <p class="bold">Спальня:</p>
+                            </div>
+                            <div class="roomlook__block__info__item2 roomlook__block__info__item__long roomlook__block__info__item2__adaptive">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item2.svg" alt="bed">
+                                    <p>1 широке двоспальне ліжко<span class="fix">і</span></p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item11.svg" alt="bed">
+                                    <p>1 диван-ліжко</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2 roomlook__block__info__item2__fix">
+                                <div class="roomlook__block__info__item">
+                                    <p class="bold">Вітальня:</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/welcome-room.svg" alt="bed">
+                                    <p>1 диван-ліжко</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item">
+                                <p>Зручності</p>
+                                <img src="img/item3.svg" alt="">
+                            </div>
+                            <div class="roomlook__block__info__item3 roomlook__block__info__item3__adaptive roomlook__block__info__item3__fix">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item4.svg" alt="bed">
+                                    <p>Вид на пам'ятку</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/kitchen.svg" alt="bed">
+                                    <p>Власна кухня</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/volume-izolation.svg" alt="bed">
+                                    <p>Звукоізоляція</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item6.svg" alt="bed">
+                                    <p>Вид на місто</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/bathroom.svg" alt="bed">
+                                    <p>Ванна кімната в номері</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item8.svg" alt="bed">
+                                    <p>Телевізор з плоским екраном</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item9.svg" alt="bed">
+                                    <p>Міні-бар</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__info__item2">
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item10.svg" alt="">
+                                    <p>Безкоштовний Wi-Fi</p>
+                                </div>
+                                <div class="roomlook__block__info__item">
+                                    <img src="img/item5.svg" alt="bed">
+                                    <p>Кондиціонер</p>
+                                </div>
+                            </div>
+                            <div class="roomlook__block__buttons">
+                                <div class="roomlook__block__button1">
+                                    <svg viewBox="0 0 180 53" fill="none" color="red" xmlns="http://www.w3.org/2000/svg" class="roomlook__block__button1__svg">
+                                      <path d="M173.318 25.2424L173.212 25.4575L173.313 25.6751L179.5 38.9748V51.7642H0.5V39.0025L8.22107 26.1212L8.37515 25.8642L8.22107 25.6071L0.5 12.7258V0.76416H179.5V12.7472L173.318 25.2424Z" stroke="#D1D1D1"/>
+                                      </svg>
+                                      <p class="roomlook__block__button1__text">від<span>40$</span>/ніч</p>
+                                  </div>
+                                <button class="roomlook__block__button2 open-popup"><a href="">Забронювати</a>
+                                    <div class="roomlook__block__button2__square1"></div>
+                                    <div class="roomlook__block__button2__square2"></div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+                <div class="btn-up"><img src="img/Arrow 4.svg" alt=""><span>Наверх</span></div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer__footer container">
+            <div class="footer__footer__item">
+                <div class="footer__footer__logo"><img src="img/logo.svg" alt=""></div>
+                <div class="footer__footer__info">
+                    <a href="#">Юридичні документи</a>
+                    <div class="footer__footer__info__block">
+                        <p>Since 2018</p>
+                        <p>2023 © Kyiv view</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__footer__item2">
+                <div class="contacts__section__item__number">
+                    <div class="contacts__section__item__number__icon"><img src="img/contacts.svg" alt=""></div>
+                    <p><span class="span__contacts">Телефон адміністрації:</span> +38 063 877 6138</p>
+                </div>
+                <div class="contacts__section__item2__location">
+                    <img src="img/mail.svg" alt="">
+                    <div class="contacts__section__item2__location__item">
+                        <div class="contacts__section__item2__location__item__srick">Пошта:</div>
+                        <div class="contacts__section__item2__location__item__srick">kyivview@yahoo.com</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__footer__item3">
+                <div class="contacts__section__item__adress">
+                    <p>Адреса:</p>
+                    <p>вулиця Василя Липківського, 16Г, Київ, 02000</p>
+                    <div class="footer__footer__author">Made by Havriil Nikitin</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="popup__bg">
+        <form class="popup">
+            <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="close-popup">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 28.5938L28.5714 0.468752L30 1.875L1.42857 30L0 28.5938Z" fill="#00303E"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.42858 0L30 28.125L28.5714 29.5313L3.74669e-06 1.40625L1.42858 0Z" fill="#00303E"/>
+                </svg>
+            <h2>Забронювати номер</h2>
+            <p class="popup__text">Залиште номер телефону для бронювання
+                і ми зателефонуємо вам протягом дня</p>
+            <label class="popup__strict">
+
+                <input type="tel" name="tel" placeholder="Номер телефону" class="popup__strict__input">
+            </label>
+            <button type="submit">Забронювати
+                <div class="submit__eclipse"></div>
+                <div class="submit__eclipse2"></div>
+            </button>
+            <p class="popup__text2">Натискаючи на кнопку, ви погоджуєтеся з умовами обробки даних і політикою конфіденційності</p>
+        </form>
+    </div>  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/apartment-view.js"></script>
+</body>
+</html>

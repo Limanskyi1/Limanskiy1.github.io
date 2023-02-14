@@ -1,0 +1,319 @@
+@media (max-width:1181px){
+    .roomlook:nth-child(5){
+        margin-bottom: 0;
+    }
+    .swiper__buttons__adaptive{
+        bottom: 9%;
+    }
+    .roomlook__block__info__item__long{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 0;
+    }
+    .roomlook__block__info__item p {
+        font-size: 16px;
+    }
+    .roomlook__block__info__adaptive *{
+        margin: 0;
+    }
+    .roomlook__block__info__adaptive{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 70%;
+    }
+    .fix{
+        margin-left: 33px;
+    }
+    .roomlook__block__info__item2__adaptive{
+        gap: 15px;
+    }
+    .swiper__buttons__adaptive1{
+        bottom: -9%;
+    }
+    .roomlook__title{
+        font-size: 36px;
+    }
+
+} 
+@media (max-width:1040px){
+    .swiper__buttons__adaptive{
+        bottom: 12%;
+    }
+}
+@media (max-width:992px){
+    .swiper__buttons__adaptive{
+        bottom: 12%;
+        left: 5%;
+    }
+    .swiper__buttons__adaptive1{
+        bottom: -5%;
+    }
+    .swiper__buttons__adaptive2{
+        bottom: -9%;
+    left: 4.8%;
+    }
+}
+@media (max-width:951px){
+    .swiper__buttons{
+        bottom: -9%;
+        left: 4.7%;
+    }
+    .swiper__buttons__adaptive{
+        bottom: 12%;
+    }
+    .swiper__buttons__adaptive1{
+        bottom: -4%;
+    }
+}
+@media (max-width:950px){
+    .roomlook__link__adaptive{
+        display: flex;
+        margin-bottom: 40px;
+    }
+    .roomlook__link{
+        display: none;
+    }
+    .roomlook__title{
+        font-size: 32px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .roomlook__head{
+        margin-bottom: 0;
+    }
+    .swiper__buttons{
+        height: fit-content;
+        width: 321px;
+        top: 58.2%;
+        left: 50%;
+        transform: translate(-50%,-58.1%);
+    }
+    .swiper__buttons__adaptive3{
+        top: 56.5%;
+    }
+    .swiper__buttons__adaptive1{
+        top: 55.3%;
+    }
+    .swiper__buttons__adaptive4{
+        top: 56.6%;
+    }
+    .swiper__buttons__adaptive2{
+        top: 56.2%;
+    }
+    .swiper__buttons__adaptive{
+        top: 50.5%;
+    }
+    .roomlook__block__info{
+        align-items: flex-start;
+    }
+    .roomlook{
+        margin-top: 80px;
+    }
+    .roomlook__block__info{
+        padding-top: 3%;
+    }
+}
+@media (max-width:769px){
+    .swiper__buttons{
+        top: 53.4%;
+    }
+    .roomlook__title{
+        font-size: 28px;
+    }
+    .header__header{
+        height: 80px;
+    }
+    .sticky + main {
+        padding-top: 80px;
+    }
+    .header__logo{
+        width: 135px;
+    }
+    .header__items__burger span{
+        width: 20px;
+        height: 1.6px;
+    }
+    .header__items__ukr{
+        width: 36px;
+    }
+    .main-block__title{
+        width: 296px;
+        font-size: 36px;
+        line-height:45px;
+    }
+    .main-block__navigation p{
+        font-size: 16px;
+    }
+    .main-block__text{
+        font-size: 16px;
+    }
+    .main-block__text{
+        margin-bottom: 75px;
+    }
+    .main__wrapper{
+        padding-top: 65px;
+    }
+    .roomlook__block__info__item p {
+        font-size: 15px;
+    }
+    .roomlook__block__button2__square1{
+        left: -7.1%;
+    }
+    .roomlook__block__button2__square2{
+        right: -7.1%;
+    }
+    .swiper__buttons__adaptive1{
+        top: 55.9%;
+    }
+    .roomlook:nth-child(5){
+        margin-bottom: 0;
+    }
+    .contacts__section__item__adress p:nth-child(1){
+        font-size: 16px;
+    }
+    .contacts__section__item__adress p:nth-child(2){
+        font-size: 16px;
+    }
+    .contacts__section__item__number p{
+        font-size: 16px;
+    }
+    .contacts__section__item__adress{
+        width: 299px;
+    }
+    .contacts__section__item__number{
+        width: 186px;
+    }
+    .contacts__section__item__number p{
+        width: 151px;
+    }
+    .span__contacts{
+        font-size: 16px;
+    }
+    .footer__footer__logo{
+        width: 201px;
+        padding-top: 30px;
+    }
+    .footer__footer__item{
+        border-top: 1px solid #E0E0E0;
+    }
+    .main-block__button1{
+        width: 150px;
+        height: 44px;
+    }
+    .main-block__button1__decor {
+        width: 16px;
+        height: 16px;
+        left: -7.2%;
+    }
+    .main-block__button1__decor2 {
+        width: 16px;
+        height: 16px;
+        right: -7.2%;
+    }
+    .main-block__button2{
+        width: 150px;
+        height: 44px;
+    }
+    .main-block__button1__decor21{
+        width: 16px;
+        height: 16px;
+        left: -7.2%;
+        top: 34.1%;
+    }
+    .main-block__button1__decor22{
+        width: 16px;
+        height: 16px;
+        right: -7.2%;
+        top: 34.1%;
+    }
+    .swiper__buttons__adaptive3{
+        top: 53.4%;
+    }
+    .swiper__buttons__adaptive1{
+        top: 52.4%;
+    }
+    .swiper__buttons__adaptive{
+        top: 47.2%;
+    }
+    .roomlook__block__info__adaptive{
+        width: 85%;
+    }
+}
+@media (max-width:550px){
+    .roomlook__title{
+        width: 100%;
+    }
+    .swiper__buttons{
+        top: 51.2%;
+    }
+    .swiper__buttons__adaptive3{
+        top: 51.3%;
+    }
+    .swiper__buttons__adaptive1{
+        top: 50.1%;
+    }
+    .swiper__buttons__adaptive{
+        top: 44.3%;
+    }
+    .swiper__buttons__adaptive4{
+        top: 51.2%;
+    }
+    .swiper__buttons__adaptive2{
+        top: 51.4%;
+    }
+    .roomlook__block__info__adaptive{
+        width: 100%;
+    }
+}
+@media (max-width:480px){
+    .swiper__buttons{
+        top: 52.7%;
+    }
+    .swiper__buttons__adaptive3{
+        top: 50.7%;
+    }
+    .swiper__buttons__adaptive1{
+        top: 50.1%;
+    }
+    .swiper__buttons__adaptive4{
+        top: 50%;
+    }
+    .swiper__buttons__adaptive2{
+        top: 50%;
+    }
+    .swiper__buttons__adaptive{
+        top: 45.3%;
+    }
+}
+@media (max-width:375px){
+    .swiper__buttons{
+        width: 310px;
+        top: 44.2%;
+    }
+    .swiper__buttons__adaptive3{
+        top: 41.8%;
+    }
+    .swiper__buttons__adaptive4{
+        top: 42.2%;
+    }
+    .swiper__buttons__adaptive2{
+        top: 41.9%;
+    }
+    .swiper__buttons__adaptive{
+        top: 35.4%;
+    }
+    .roomlook__block__info__item3{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .roomlook__block__info__item3>div{
+        margin-right: 20px;
+    }
+    .roomlook__block__info__item3__fix{
+        gap: 23px;
+    }
+
+}
